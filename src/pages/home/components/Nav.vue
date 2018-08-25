@@ -8,11 +8,11 @@
             <swiper-slide><span class="ee">漫画</span></swiper-slide>
             <swiper-slide><span class="ee">出版</span></swiper-slide>
             <swiper-slide><span class="ee">听书</span></swiper-slide>
-            <swiper-slide><span class="ee">积木</span></swiper-slide>
-            
+            <swiper-slide><span class="ee">玄幻</span></swiper-slide>
+            <swiper-slide><span class="ee">奇文</span></swiper-slide>
             <swiper-slide><span class="ee">免费</span></swiper-slide>
             <swiper-slide><span class="ee">VIP</span></swiper-slide>
-            <swiper-slide><span class="ee">板栗</span></swiper-slide>
+            <swiper-slide><span class="ee">都市</span></swiper-slide>
             <swiper-slide><span class="ee">书店</span></swiper-slide>
         </swiper>
         <div class="qq">
@@ -34,6 +34,7 @@ export default {
                 freeModeMomentumBounceRatio : 5,
                 preventLinksPropagation : false,
                 slideToClickedSlide:true,
+                autoplayDisableOnInteraction : false,
             }
         }  
     }
@@ -52,10 +53,11 @@ export default {
             z-index 1
             font-size .6rem
         .qq
-            float right
+            position relative
             .con
-                position relative 
+                position absolute
                 top -1rem
+                right 0
                 height 1rem
                 line-height 1rem
                 width 2rem
