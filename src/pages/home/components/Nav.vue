@@ -3,17 +3,18 @@
         <swiper :options="swiperOption" >
             <!-- slides -->
             <swiper-slide><router-link tag="span" to="/sift" class="ee">精选</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/man" class="ee">男生</router-link></swiper-slide>
-            <swiper-slide><span class="ee">女生</span></swiper-slide>
-            <swiper-slide><span class="ee">漫画</span></swiper-slide>
-            <swiper-slide><span class="ee">出版</span></swiper-slide>
-            <swiper-slide><span class="ee">听书</span></swiper-slide>
-            <swiper-slide><span class="ee">玄幻</span></swiper-slide>
-            <swiper-slide><span class="ee">奇文</span></swiper-slide>
-            <swiper-slide><span class="ee">免费</span></swiper-slide>
-            <swiper-slide><span class="ee">VIP</span></swiper-slide>
-            <swiper-slide><span class="ee">都市</span></swiper-slide>
-            <swiper-slide><span class="ee">书店</span></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/boy" class="ee">男生</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/girl" class="ee">女生</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/comics" class="ee">漫画</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/publish" class="ee">出版</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/listen" class="ee">听书</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/fantasy" class="ee">玄幻</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/writing" class="ee">奇文</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/free" class="ee">免费</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/VIP" class="ee">VIP</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/city" class="ee">都市</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/bookstore" class="ee">书店</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/" class="ee"></router-link></swiper-slide>
         </swiper>
         <div class="qq">
             <div class="con"><span class="iconfont con-icon">&#xe604;</span></div>
@@ -37,6 +38,11 @@ export default {
                 autoplayDisableOnInteraction : false,
             }
         }  
+    },
+    methods: {
+        tabClick (res) {
+
+        }
     }
     
 }
@@ -46,7 +52,8 @@ export default {
     .wrapper
         margin-top .2rem
         height 1rem
-        
+        .router-link-active
+            color red
         .ee
             margin-left .5rem
             line-height 1rem
