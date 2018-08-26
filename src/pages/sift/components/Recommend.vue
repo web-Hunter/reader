@@ -2,18 +2,20 @@
     <div class="recommend">
         <div class="recommend-title">本期主打</div>
         <div class="recommend-items">
+            
+            <div class="item">
+                <img class="item-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/949bec64/group6/M00/26/82/CmQUNlX10uGEHzyJAAAAAE0LNYw692492407.jpg?v=tCoNHFTe&t=CmQUNlsfX8Q.">
+                <p class="item-desc">从你的全世界路过</p>
+            </div>
+            <div class="item">
+                <img class="item-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW">
+                <p class="item-desc">夏有乔木 雅望天堂</p>
+            </div>
             <div class="item">
                 <img class="item-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/9edacc16/group6/M00/13/8F/CmQUN1X04MqEd-iGAAAAALAelRw541495640.jpg?v=oWFgHtDu&t=CmQUN1tqkb0.">
                 <p class="item-desc">三生三世 十里桃花</p>
             </div>
-            <div class="item">
-                <img class="item-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/30a7752c/group6/M00/D0/E1/CmQUNljdCSeEXipHAAAAAFq1unM312123656.jpg?v=cZdVgz4n&t=CmQUNlkVKMA.">
-                <p class="item-desc">逍遥游-月关</p>
-            </div>
-            <div class="item">
-                <img class="item-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/421ef3f4/group6/M00/7E/5C/CmQUOFjdKZ2EdMkHAAAAAMQytpo613382622.jpg?v=dew8TPuj">
-                <p class="item-desc">医妃权倾天下</p>
-            </div>
+            
         </div>
     </div>
 </template>

@@ -1,0 +1,82 @@
+{
+    "ret": true,
+    "RecommendList":[{
+        "id":"0001",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/949bec64/group6/M00/26/82/CmQUNlX10uGEHzyJAAAAAE0LNYw692492407.jpg?v=tCoNHFTe&t=CmQUNlsfX8Q.",
+        "title":"从你的全世界路过"
+    },{
+        "id":"0002",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW",
+        "title":"夏有乔木 雅望天堂"
+    },{
+        "id":"0003",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/9edacc16/group6/M00/13/8F/CmQUN1X04MqEd-iGAAAAALAelRw541495640.jpg?v=oWFgHtDu&t=CmQUN1tqkb0.",
+        "title":"三生三世 十里桃花"
+    }],
+
+
+    "bookList": [{
+        "id":"0001",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/e8c7a7fc/group6/M00/27/12/CmQUNlX12oyEEvuXAAAAAN4MY9k598531021.jpg?v=of2_V4tA&t=CmQUNlqCScw.",
+        "title":"解忧杂货店"
+    },{
+        "id":"0002",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/b0be0718/group6/M00/2F/01/CmQUN1X2R66EF9DSAAAAAHWn2VI683375724.jpg?v=rEScOsMs",
+        "title":"微微一笑很倾城"
+    },{
+        "id":"0003",
+        "imgUrl":
+        "ttp://book.img.ireader.com/idc_1/m_1,w_200,h_266/6b97f765/group6/M00/2B/5E/CmQUNlX2FM6EO8gjAAAAAEd5gEI351093916.jpg?v=aAfPndq6",
+        "title":"何以笙箫默"
+    },{
+        "id":"0004",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/9b8f4636/group6/M00/7E/40/CmQUOFjdKNCEMS_lAAAAAB2dzDM402138497.jpg?v=9XGLbEA4",
+        "title":"明朝那些事儿"
+    },{
+        "id":"0005",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/cbfa7d1f/group6/M00/13/A2/CmQUNlX04NeEarErAAAAAFJQXnk583141635.jpg?v=I38qO2K5",
+        "title":"如懿传"
+    },{
+        "id":"0006",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/55a948a2/group6/M00/D2/69/CmQUN1jdFO-EXpujAAAAAL8tApw659054726.jpg?v=NDKyy5Zm",
+        "title":"最好的我们"
+    },{
+        "id":"0007",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/05870002/group6/M00/95/BE/CmQUNllwdTmEeTyFAAAAAKg5HN8712314063.jpg?v=E-Vtnz0n&t=CmQUNltNqX0.",
+        "title":"围城"
+    },{
+        "id":"0008",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/5ec59874/group6/M00/37/7F/CmQUN1X3pbKEKM0VAAAAAAga20U850562575.jpg?v=rREKPKvy&t=CmQUN1ovpHk.",
+        "title":"白鹿原"
+    },{
+        "id":"0009",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a16ee810/group6/M00/2B/41/CmQUOFcMj9CEBj_gAAAAAI1eU64427806210.jpg?v=fpk5EWqq&t=CmQUOFpAwr8.",
+        "title":"活着"
+    },{
+        "id":"0010",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/b5edefa7/group6/M00/7C/DC/CmQUOFjdHnmESQlRAAAAAHj-nu0697793353.jpg?v=8Bp1KMkj",
+        "title":"孤芳不自赏"
+    },{
+        "id":"0011",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/64a27e95/group6/M00/7A/49/CmQUOVjdC3KEDqUOAAAAAPBIp8M919025243.jpg?v=tax-d0E8",
+        "title":"余生，请多指教"
+    },{
+        "id":"0012",
+        "imgUrl":
+        "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/447e8174/group6/M00/9D/18/CmQUN1eyywGEDKUtAAAAAAjMsBI887270905.jpg?v=6iY2UWFL&t=CmQUN1p9bQ0.",
+        "title":"我站在桥上看风景"
+    }]
+}
