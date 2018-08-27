@@ -1,19 +1,9 @@
 <template>
     <div class="swiper">
         <swiper :options="swiperOption">
-            <swiper-slide >
-                <img src="../../../assets/images/3.jpg" class="swiper-img">
+            <swiper-slide v-for="item of slidelist" :key="item.id">
+                <img :src="item.imgUrl" class="swiper-img">
             </swiper-slide>
-            <swiper-slide >
-                <img src="../../../assets/images/5.jpg" class="swiper-img">
-            </swiper-slide>
-            <swiper-slide >
-                <img src="../../../assets/images/6.jpg" class="swiper-img">
-            </swiper-slide>
-            <swiper-slide >
-                <img src="../../../assets/images/7.jpg" class="swiper-img">
-            </swiper-slide>
-            
             <div class="swiper-pagination"  slot="pagination"></div>
         </swiper>
     </div>
@@ -22,6 +12,9 @@
 <script>
 export default {
     name: 'HomeSwiper',
+    props: {
+        slidelist: Array
+    },
     data () {
         return {
             swiperOption: {

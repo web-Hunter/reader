@@ -43,6 +43,9 @@ export default {
 <style lang="stylus" scoped>
     .classify
         .classify-top
+            position fixed
+            z-index 6
+            background #fff
             width 100%
             height 2rem
             .top-icon
@@ -59,7 +62,8 @@ export default {
             position absolute
             background green
             .bottom-left
-                position absolute
+                margin-top 2rem
+                position fixed
                 float left
                 width 20%
                 height 100%

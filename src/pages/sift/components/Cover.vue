@@ -1,26 +1,26 @@
 <template>
     <div class="cover">
-        <div class="cover-left">
+        <div class="cover-left" v-for="item of coverlist" :key="item.id" v-if="item.id == 1">
             <div class="left-info">
-                <span class="left-info-title">封面推荐</span>
-                <span class="left-info-desc">穿越了！咦？小太监...</span>
+                <span class="left-info-title">{{item.title}}</span>
+                <span class="left-info-desc">{{item.desc}}</span>
             </div>
-            <img class="cover-left-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/279e7f1d/group6/M00/DE/75/CmQUN1kQB-qERmkwAAAAADvXCu4176467908.jpg?v=MxHv3Od_&t=CmQUN1kQB-o.">
+            <img class="cover-left-img" :src="item.imgUrl">
         </div>
         <div class="cover-right">
-            <div class="right-top">
+            <div class="right-top" v-for="item of coverlist" :key="item.id" v-if="item.id == 2">
                 <div class="right-info">
-                    <span class="right-info-title">神级风水师</span>
-                    <span class="right-info-desc">风水养人，亦可杀人</span>
+                    <span class="right-info-title">{{item.title}}</span>
+                    <span class="right-info-desc">{{item.desc}}</span>
                 </div>
-                <img class="cover-right-img" src="../../../assets/images/1.png">
+                <img class="cover-right-img" :src="item.imgUrl">
             </div>
-            <div class="right-bottom">
+            <div class="right-bottom" v-for="item of coverlist" :key="item.id" v-if="item.id == 3">
                 <div class="right-info">
-                    <span class="right-info-title">悬疑灵异</span>
-                    <span class="right-info-desc">怪事奇谈，鬼话连篇</span>
+                    <span class="right-info-title">{{item.title}}</span>
+                    <span class="right-info-desc">{{item.desc}}</span>
                 </div>
-                <img class="cover-right-img" src="../../../assets/images/2.jpg">
+                <img class="cover-right-img" :src="item.imgUrl">
             </div>
         </div>
     </div>
@@ -28,7 +28,10 @@
 
 <script>
 export default {
-    name: 'Cover'    
+    name: 'Cover',
+    props: {
+        coverlist: Array
+    }  
 }
 </script>
 
