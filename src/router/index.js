@@ -13,6 +13,11 @@ import Free from '@/pages/both/Free'
 import VIP from '@/pages/both/VIP'
 import City from '@/pages/both/City'
 import Bookstore from '@/pages/both/Bookstore'
+import Classify from '@/pages/classify/Classify'
+import BaseNav from '@/pages/baseNav/BaseNav'
+import BookRack from '@/pages/bookrack/BookRack'
+import Find from '@/pages/find/Find'
+import My from '@/pages/my/My'
 
 Vue.use(Router)
 
@@ -73,5 +78,25 @@ export default new Router({
         }
       ]
     },
+    {
+      path: '/classify',
+      component: Classify
+    },
+    {
+      path: '/basenav',
+      component: BaseNav
+    },
+    {
+      path: '/bookrack',
+      component: BookRack
+    },
+    {
+      path: '/find',
+      component: Find
+    },
+    {
+      path: '/my',
+      component: My
+    }
   ]
 })

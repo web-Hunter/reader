@@ -5,9 +5,9 @@
             搜索本地或书城
             <span class="header-input-scan iconfont">&#xe661;</span>
         </div>
-        <div class="header-right">
+        <router-link tag="div" to="/classify" class="header-right">
             分类
-        </div>
+        </router-link>
     </div>
 </template>
 
