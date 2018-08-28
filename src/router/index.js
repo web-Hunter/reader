@@ -18,6 +18,7 @@ import BaseNav from '@/pages/baseNav/BaseNav'
 import BookRack from '@/pages/bookrack/BookRack'
 import Find from '@/pages/find/Find'
 import My from '@/pages/my/My'
+import ClassifyComponent from '@/pages/classify/components/ClassifyComponent'
 
 Vue.use(Router)
 
@@ -80,7 +81,13 @@ export default new Router({
     },
     {
       path: '/classify',
-      component: Classify
+      component: Classify,
+      children:[
+        {
+          path: '/classifycomponent',
+          component: ClassifyComponent
+        }
+      ]
     },
     {
       path: '/basenav',

@@ -7,36 +7,61 @@
         <div class="classify-bottom">
             <div class="bottom-left">
                 <ul>
-                    <li class="items">
-                        <span class="item">男频</span>
-                    </li>
-                    <li class="items">
-                        <span class="item">女频</span>
-                    </li>
-                    <li class="items">
-                        <span class="item">漫画</span>
-                    </li>
-                    <li class="items">
-                        <span class="item">出版</span>
-                    </li>
-                    <li class="items">
-                        <span class="item">听书</span>
-                    </li>
-                    <li class="items">
-                        <span class="item">杂志</span>
+                    <li class="items" 
+                    v-for="(channel, index) in channelList" 
+                    :key="index"
+                    @click="handleChannelClick(index)"
+                    >
+                        <span class="item">{{channel.title}}</span>
                     </li>
                 </ul>
             </div>
             <div class="bottom-right">
-                
+                <classify-component 
+                :classifylist="classifyList" 
+                :dd="dd"
+                ></classify-component>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import ClassifyComponent from  './components/ClassifyComponent'
+import axios from 'axios'
 export default {
-    name: 'Classify'
+    name: 'Classify',
+    components: {
+        ClassifyComponent
+    },
+    data () {
+        return {
+            channelList: [],
+            classifyList: [],
+            dd: 1
+        }
+    },
+    methods: {
+        getClassifyInfo () {
+            axios.get('/api/classify.json')
+            .then(this.getClassifyInfoSucc)
+        },
+        getClassifyInfoSucc (res) {
+            res = res.data
+            if(res.ret) {
+                this.channelList = res.channelList
+                this.classifyList = res.classifyList
+            }
+            console.log(res);
+            
+        },
+        handleChannelClick (e) {
+            this.dd = e + 1            
+        }
+    },
+    mounted () {
+        this.getClassifyInfo()
+    }
 }
 </script>
 
@@ -48,6 +73,7 @@ export default {
             background #fff
             width 100%
             height 2rem
+            border-bottom .05rem solid #eee
             .top-icon
                 line-height 2rem
                 margin-left .8rem
@@ -56,11 +82,10 @@ export default {
                 margin-left .5rem
                 font-size .7rem
         .classify-bottom
-            border-top .05rem solid #eee
+            
             width 100%
             height 100%
             position absolute
-            background green
             .bottom-left
                 margin-top 2rem
                 position fixed
@@ -68,15 +93,15 @@ export default {
                 width 20%
                 height 100%
                 overflow hidden
-                background #ccc
+                background #eee
                 .items
                     width 100%
                     height 3rem
                     overflow hidden
-                    background yellow
                     .item
                         line-height 3rem
                         margin-left 1rem
                         font-size .6rem
                         font-weight bold
+            
 </style>

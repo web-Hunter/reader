@@ -51,9 +51,7 @@ export default {
                 this.recommendList = res.recommendList
                 this.coverList = res.coverList
                 this.matterList = res.matterList
-            }
-            console.log(res);
-            
+            }            
         }
     },
     mounted () {
