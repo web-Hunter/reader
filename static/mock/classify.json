@@ -1,0 +1,193 @@
+{
+    "ret": true,
+    "channelList":[{
+        "id":"0001",
+        "title": "男频"
+    },{
+        "id":"0002",
+        "title": "女频"
+    },{
+        "id":"0003",
+        "title": "漫画"
+    },{
+        "id":"0004",
+        "title": "出版"
+    },{
+        "id":"0005",
+        "title": "听书"
+    },{
+        "id":"0006",
+        "title": "杂志"
+    }],
+    "classifyList":[{
+        "id": "0001",
+        "items":[{
+            "id": "0001",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/ed02bbf4/group6/M00/53/69/CmQUOFm_QoSEYdk9AAAAANooMHQ112332680.jpg?v=8EfolVN4&t=CmQUOFm_QoQ.",
+            "title": "玄幻"
+        },{
+            "id": "0002",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/5c3608a0/group6/M00/BF/52/CmQUN1ovUneEY6cOAAAAABkbwXE649503755.jpg?v=1Yez5qgT&t=CmQUN1ovUqU.",
+            "title": "武侠"
+        },{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/1bdd81e2/group6/M00/36/33/CmQUOVlSJMOEAYjwAAAAACws3o4152427059.jpg?v=BF5jpWRQ&t=CmQUOVmvkjw.",
+            "title": "都市"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/80ba97a4/group6/M00/42/50/CmRaIVjdDduEGWIkAAAAABKw0TQ025855058.jpg?v=388mC9KX",
+            "title": "奇幻"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/be3939e0/group6/M00/4E/D6/CmRaIVkKjFiESuqhAAAAAMSgrv0075406356.jpg?v=Kxp34Syi&t=CmRaIVkKqXQ.",
+            "title": "历史"
+        },{
+            "id": "0006",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/aee934a8/group6/M00/6F/04/CmQUNlbGeZqEMIH5AAAAAKesghI001331985.jpg?v=S6ixjhRW",
+            "title": "军事"
+        },{
+            "id": "0007",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/9d3dbb16/group6/M00/02/09/CmRae1p__ROEEjNgAAAAAAz2wz8377570845.jpg?v=n3YVHp_Q&t=CmRae1p__RM.",
+            "title": "游戏"
+        },{
+            "id": "0008",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/dfc48977/group6/M00/7B/C8/CmQUOVjdFmaEbdL9AAAAAPx0BfA921139749.jpg?v=d0l04kdc&t=CmQUNlsQxm8.",
+            "title": "校园"
+        },{
+            "id": "0009",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/23b0f3da/group6/M00/C7/72/CmQUN1ihitqEbzf8AAAAAByyivY107359052.jpg?v=1nV4hOVP",
+            "title": "科幻"
+        }]
+    },{
+        "id": "0002",
+        "items":[{
+            "id": "0001",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/576b189d/group6/M00/88/03/CmQUOFrQEwiEZ22wAAAAAFP9YxE477474821.jpg?v=FxgtF0dS&t=CmQUOFrQEwg.",
+            "title": "古代言情"
+        },{
+            "id": "0002",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/21ba3a00/group6/M00/CB/05/CmQUNlpF_euEc2OPAAAAAIctyOA524665380.jpg?v=5Qo3G44A&t=CmQUNlt6kW4.",
+            "title": "现代言情"
+        },{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d3e1d6bc/group6/M00/44/A6/CmRaIVp0MIWEYn0hAAAAAJ9Shok746218608.jpg?v=rPgG3LSh&t=CmRaIVp0MIo.",
+            "title": "幻想言情"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/f42aff4e/group6/M00/5D/5F/CmRaIVsh0NGEZf13AAAAAKqoJt0390842528.jpg?v=yGfjh7Vu&t=CmRaIVsh79I.",
+            "title": "青春校园"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/baed570f/group6/M00/D0/C2/CmQUN1jdCM6EdCYCAAAAAGJiXdo135176167.jpg?v=7g3cFFiN",
+            "title": "推理悬疑"
+        },{
+            "id": "0006",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d4b75c3a/group6/M00/DE/31/CmQUN1rJyK6EeY-DAAAAALCuZ2M484545967.jpg?v=BcirXJYI&t=CmQUN1rJyKw.",
+            "title": "同人作品"
+        },{
+            "id": "0007",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/91b49f74/group6/M00/62/B2/CmRaIVs-1dSEPtfxAAAAAIZFGJY715423650.jpg?v=kp5Rk6eM&t=CmRaIVs-1dk.",
+            "title": "惊悚/恐怖"
+        }]
+    },{
+        "id": "0003",
+        "items":[{
+            "id": "0002",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/21ba3a00/group6/M00/CB/05/CmQUNlpF_euEc2OPAAAAAIctyOA524665380.jpg?v=5Qo3G44A&t=CmQUNlt6kW4.",
+            "title": "现代言情"
+        },{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d3e1d6bc/group6/M00/44/A6/CmRaIVp0MIWEYn0hAAAAAJ9Shok746218608.jpg?v=rPgG3LSh&t=CmRaIVp0MIo.",
+            "title": "幻想言情"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/f42aff4e/group6/M00/5D/5F/CmRaIVsh0NGEZf13AAAAAKqoJt0390842528.jpg?v=yGfjh7Vu&t=CmRaIVsh79I.",
+            "title": "青春校园"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/baed570f/group6/M00/D0/C2/CmQUN1jdCM6EdCYCAAAAAGJiXdo135176167.jpg?v=7g3cFFiN",
+            "title": "推理悬疑"
+        },{
+            "id": "0006",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d4b75c3a/group6/M00/DE/31/CmQUN1rJyK6EeY-DAAAAALCuZ2M484545967.jpg?v=BcirXJYI&t=CmQUN1rJyKw.",
+            "title": "同人作品"
+        }]
+    },{
+        "id": "0004",
+        "items":[{
+            "id": "0001",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/576b189d/group6/M00/88/03/CmQUOFrQEwiEZ22wAAAAAFP9YxE477474821.jpg?v=FxgtF0dS&t=CmQUOFrQEwg.",
+            "title": "古代言情"
+        },{
+            "id": "0002",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/21ba3a00/group6/M00/CB/05/CmQUNlpF_euEc2OPAAAAAIctyOA524665380.jpg?v=5Qo3G44A&t=CmQUNlt6kW4.",
+            "title": "现代言情"
+        },{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d3e1d6bc/group6/M00/44/A6/CmRaIVp0MIWEYn0hAAAAAJ9Shok746218608.jpg?v=rPgG3LSh&t=CmRaIVp0MIo.",
+            "title": "幻想言情"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/f42aff4e/group6/M00/5D/5F/CmRaIVsh0NGEZf13AAAAAKqoJt0390842528.jpg?v=yGfjh7Vu&t=CmRaIVsh79I.",
+            "title": "青春校园"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/baed570f/group6/M00/D0/C2/CmQUN1jdCM6EdCYCAAAAAGJiXdo135176167.jpg?v=7g3cFFiN",
+            "title": "推理悬疑"
+        }]
+    },{
+        "id": "0005",
+        "items":[{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d3e1d6bc/group6/M00/44/A6/CmRaIVp0MIWEYn0hAAAAAJ9Shok746218608.jpg?v=rPgG3LSh&t=CmRaIVp0MIo.",
+            "title": "幻想言情"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/f42aff4e/group6/M00/5D/5F/CmRaIVsh0NGEZf13AAAAAKqoJt0390842528.jpg?v=yGfjh7Vu&t=CmRaIVsh79I.",
+            "title": "青春校园"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/baed570f/group6/M00/D0/C2/CmQUN1jdCM6EdCYCAAAAAGJiXdo135176167.jpg?v=7g3cFFiN",
+            "title": "推理悬疑"
+        },{
+            "id": "0006",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/d4b75c3a/group6/M00/DE/31/CmQUN1rJyK6EeY-DAAAAALCuZ2M484545967.jpg?v=BcirXJYI&t=CmQUN1rJyKw.",
+            "title": "同人作品"
+        },{
+            "id": "0007",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/91b49f74/group6/M00/62/B2/CmRaIVs-1dSEPtfxAAAAAIZFGJY715423650.jpg?v=kp5Rk6eM&t=CmRaIVs-1dk.",
+            "title": "惊悚/恐怖"
+        }]
+    },{
+        "id": "0006",
+        "items":[{
+            "id": "0001",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/ed02bbf4/group6/M00/53/69/CmQUOFm_QoSEYdk9AAAAANooMHQ112332680.jpg?v=8EfolVN4&t=CmQUOFm_QoQ.",
+            "title": "玄幻"
+        },{
+            "id": "0002",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/5c3608a0/group6/M00/BF/52/CmQUN1ovUneEY6cOAAAAABkbwXE649503755.jpg?v=1Yez5qgT&t=CmQUN1ovUqU.",
+            "title": "武侠"
+        },{
+            "id": "0003",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/1bdd81e2/group6/M00/36/33/CmQUOVlSJMOEAYjwAAAAACws3o4152427059.jpg?v=BF5jpWRQ&t=CmQUOVmvkjw.",
+            "title": "都市"
+        },{
+            "id": "0004",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/80ba97a4/group6/M00/42/50/CmRaIVjdDduEGWIkAAAAABKw0TQ025855058.jpg?v=388mC9KX",
+            "title": "奇幻"
+        },{
+            "id": "0005",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/be3939e0/group6/M00/4E/D6/CmRaIVkKjFiESuqhAAAAAMSgrv0075406356.jpg?v=Kxp34Syi&t=CmRaIVkKqXQ.",
+            "title": "历史"
+        },{
+            "id": "0006",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/aee934a8/group6/M00/6F/04/CmQUNlbGeZqEMIH5AAAAAKesghI001331985.jpg?v=S6ixjhRW",
+            "title": "军事"
+        },{
+            "id": "0007",
+            "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/9d3dbb16/group6/M00/02/09/CmRae1p__ROEEjNgAAAAAAz2wz8377570845.jpg?v=n3YVHp_Q&t=CmRae1p__RM.",
+            "title": "游戏"
+        }]
+    }]
+}
