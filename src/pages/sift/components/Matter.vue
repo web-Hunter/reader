@@ -6,11 +6,10 @@
         </div>
         <div class="matter-bottom">
             <div class="bottom-templates" v-for="items in matterlist" :key="items.id">
-                <div class="templates" v-for="item in items.item" :key="item.id">
+                <router-link tag="div" :to="{path:'/details',query:{id:item.id}}" class="templates" v-for="item in items.item" :key="item.id">
                     <img class="templates-img" :src="item.imgUrl">
                     <p class="templates-desc">{{item.title}}</p>
-                </div>
-                
+                </router-link>
             </div>     
         </div>
     </div>

@@ -2,10 +2,10 @@
     <div class="recommend">
         <div class="recommend-title">本期主打</div>
         <div class="recommend-items">  
-            <div class="item" v-for="item of recommendlist" :key="item.id">
+            <router-link tag="div" class="item" v-for="item of recommendlist" :key="item.id" :to="{path:'/details',query:{id:item.id}}">
                 <img class="item-img" :src="item.imgUrl">
                 <p class="item-desc">{{item.title}}</p>
-            </div>        
+            </router-link>        
         </div>
     </div>
 </template>

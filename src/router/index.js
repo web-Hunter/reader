@@ -19,6 +19,7 @@ import BookRack from '@/pages/bookrack/BookRack'
 import Find from '@/pages/find/Find'
 import My from '@/pages/my/My'
 import ClassifyComponent from '@/pages/classify/components/ClassifyComponent'
+import Details from '@/pages/details/Details'
 
 Vue.use(Router)
 
@@ -104,6 +105,10 @@ export default new Router({
     {
       path: '/my',
       component: My
+    },
+    {
+      path: '/details',
+      component: Details
     }
   ]
 })

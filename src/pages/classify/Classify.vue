@@ -51,9 +51,7 @@ export default {
             if(res.ret) {
                 this.channelList = res.channelList
                 this.classifyList = res.classifyList
-            }
-            console.log(res);
-            
+            }            
         },
         handleChannelClick (e) {
             this.dd = e + 1            

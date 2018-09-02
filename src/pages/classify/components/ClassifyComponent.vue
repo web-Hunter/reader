@@ -22,9 +22,7 @@ export default {
     },
     watch: {
         dd: function (newValue,oldValue) {
-            this.dd = newValue
-            console.log(this.dd);
-            
+            this.dd = newValue            
         }
         
     }
