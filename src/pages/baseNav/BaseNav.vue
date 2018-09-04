@@ -25,8 +25,7 @@
                     <span class="item-desc">我的</span>
                 </div>
             </router-link>
-        </div>
-        
+        </div> 
     </div>
 </template>
 
@@ -38,6 +37,7 @@ export default {
 
 <style lang="stylus" scoped>
     .base-nav
+        border-top .01rem solid #eee
         position fixed
         bottom 0
         z-index 5
