@@ -1,41 +1,20 @@
 <template>
     <div class="icons">
-        <div class="icon">
+        <div class="icon" v-for="item in iconlist" :key="item.id">
             <router-link tag="div" to="/classify" class="uu">
-                <span class="iconfont icon-small icon1">&#xe603;</span>
-                <p class="text-small">分类</p>
+                <img :src="item.iconfonts">
+                <p class="text-small">{{item.title}}</p>
             </router-link>
-        </div>
-        <div class="icon">
-            <div class="uu">
-                <span class="iconfont icon-small icon2">&#xe6fe;</span>
-                <p class="text-small">排行</p>
-            </div>
-        </div>
-        <div class="icon">
-            <div class="uu">
-                <span class="iconfont icon-small icon3">&#xe657;</span>
-                <p class="text-small">免费</p>
-            </div>
-        </div>
-        <div class="icon">
-            <div class="uu">
-                <span class="iconfont icon-small icon4">&#xe74d;</span>
-                <p class="text-small">包月</p>
-            </div>
-        </div>
-        <div class="icon">
-            <div class="uu">
-                <span class="iconfont icon-small icon5">&#xe600;</span>
-                <p class="text-small">特价</p>
-            </div>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'HeaderIcon'    
+    name: 'HeaderIcon',
+    props: {
+        iconlist: Array
+    }
 }
 </script>
 
