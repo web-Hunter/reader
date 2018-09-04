@@ -57,6 +57,7 @@ export default {
                     text-align center
                     font-size .8rem
                     font-weight bold
+                    color #0be
                 .header-left-desc
                     margin-left .2rem
                     color #ccc
@@ -75,10 +76,13 @@ export default {
                 .time
                     float right
                     line-height 1.5rem
+                
             .content-content
                 width 100%
                 font-size .6rem
                 letter-spacing .05rem
+                .desc
+                    color #999
             .content-bottom
                 float right
 </style>

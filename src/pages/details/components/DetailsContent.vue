@@ -1,40 +1,42 @@
 <template>
     <div class="details-content">
-        <div class="header border-bottom">
-            <div class="header-left">
-                <div class="left-star">
-                    <span>8.3</span>
+        <div  v-for="item in detailslist" :key="item.id" v-if="item.id == di">
+            <div class="header border-bottom">
+                <div class="header-left">
+                    <div class="left-star">
+                        <span>{{item.grade}}</span>
+                    </div>
+                    <div class="left-num">{{item.evalute}}人评价</div>
                 </div>
-                <div class="left-num">234人评价</div>
+                <div class="header-right">
+                    <div class="right-descs">
+                        <div class="right-desc">{{item.moods}}万</div>
+                        <div class="right-des">人气</div>
+                        
+                    </div>
+                    <div class="right-descs">
+                        <div class="right-desc">{{item.like}}万</div>
+                        <div class="right-des">点赞</div>
+                    </div>
+                    <div class="right-descs">   
+                        <div class="right-desc">{{item.fans}}万</div>
+                        <div class="right-des">粉丝</div>
+                    </div>
+                </div>
             </div>
-            <div class="header-right">
-                <div class="right-descs">
-                    <div class="right-desc">3000.5万</div>
-                    <div class="right-des">人气</div>
-                    
-                </div>
-                <div class="right-descs">
-                    <div class="right-desc">200.4万</div>
-                    <div class="right-des">点赞</div>
-                </div>
-                <div class="right-descs">   
-                    <div class="right-desc">100.3万</div>
-                    <div class="right-des">粉丝</div>
-                </div>
+            <div class="content">
+                <span>内容简介：</span>
+                {{item.content}}
             </div>
-        </div>
-        <div class="content" v-for="item in detailslist" :key="item.id" v-if="item.id == di">
-            <span>内容简介：</span>
-            {{item.content}}
-        </div>
-        <div class="bottom border-topbottom">
-            <div class="bottom-left">
-                <span class="bottom-left-title">目录</span>
-                <span class="bottom-left-desc">2000章</span>
-            </div>
-            <div class="bottom-right">
-                <span class="bottom-right-desc">查看目录</span>
-                <span class="iconfont">&#xe63a;</span>
+            <div class="bottom border-topbottom">
+                <div class="bottom-left">
+                    <span class="bottom-left-title">目录</span>
+                    <span class="bottom-left-desc">{{item.section}}章</span>
+                </div>
+                <div class="bottom-right">
+                    <span class="bottom-right-desc">查看目录</span>
+                    <span class="iconfont">&#xe63a;</span>
+                </div>
             </div>
         </div>
     </div>
