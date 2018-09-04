@@ -7,7 +7,7 @@
             </router-link>
         </div>
         <div class="icon" v-for="item in iconlist" :key="item.id" v-if="item.id != 1">
-            <router-link tag="div" to="/" class="uu">
+            <router-link tag="div" :to="{path:'/icondetails',query:{id:item.id}}" class="uu">
                 <img :src="item.iconfonts">
                 <p class="text-small">{{item.title}}</p>
             </router-link>

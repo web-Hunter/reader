@@ -20,6 +20,7 @@ import Find from '@/pages/find/Find'
 import My from '@/pages/my/My'
 import ClassifyComponent from '@/pages/classify/components/ClassifyComponent'
 import Details from '@/pages/details/Details'
+import IconDetails from '@/pages/icondetails/IconDetails'
 
 Vue.use(Router)
 
@@ -109,6 +110,10 @@ export default new Router({
     {
       path: '/details',
       component: Details
+    },
+    {
+      path: '/icondetails',
+      component: IconDetails
     }
   ]
 })
