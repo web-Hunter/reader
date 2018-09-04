@@ -7,7 +7,7 @@
     },{
         "id":"0002",
         "iconfonts":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/icon2.png?raw=true",
-        "title":"排行"
+        "title":"精品"
     },{
         "id":"0003",
         "iconfonts":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/icon3.png?raw=true",
@@ -15,11 +15,11 @@
     },{
         "id":"0004",
         "iconfonts":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/icon4.png?raw=true",
-        "title":"包月"
+        "title":"独家"
     },{
         "id":"0005",
         "iconfonts":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/icon5.png?raw=true",
-        "title":"特价"
+        "title":"畅销"
     }],
 
 

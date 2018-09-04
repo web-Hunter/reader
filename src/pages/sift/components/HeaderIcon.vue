@@ -1,7 +1,13 @@
 <template>
     <div class="icons">
-        <div class="icon" v-for="item in iconlist" :key="item.id">
+        <div class="icon" v-for="item in iconlist" :key="item.id" v-if="item.id == 1">
             <router-link tag="div" to="/classify" class="uu">
+                <img :src="item.iconfonts">
+                <p class="text-small">{{item.title}}</p>
+            </router-link>
+        </div>
+        <div class="icon" v-for="item in iconlist" :key="item.id" v-if="item.id != 1">
+            <router-link tag="div" to="/" class="uu">
                 <img :src="item.iconfonts">
                 <p class="text-small">{{item.title}}</p>
             </router-link>
@@ -32,19 +38,8 @@ export default {
                 margin-left 25%
                 margin-top 15%
                 text-align center
-                .icon-small
-                    font-size 1.3rem
                 .text-small
                     line-height 1.3rem
                     font-size .5rem
-                .icon1
-                    color green
-                .icon2
-                    color blue
-                .icon3
-                    color orange
-                .icon4
-                    color red
-                .icon5
-                    color purple
+                
 </style>
