@@ -1,7 +1,7 @@
 <template>
     <div>
         <slide-show :slidelist="slideList"></slide-show>
-        <header-icon></header-icon>
+        <header-icon :iconlist="iconList"></header-icon>
         <recommend :recommendlist="recommendList"></recommend>
         <cover :coverlist="coverList"></cover>
         <matter :matterlist="matterList"></matter>
@@ -29,7 +29,8 @@ export default {
             slideList: [],
             recommendList: [],
             coverList: [],
-            matterList: []
+            matterList: [],
+            iconList: [],
         }
     },
     components:{
@@ -51,6 +52,7 @@ export default {
                 this.recommendList = res.recommendList
                 this.coverList = res.coverList
                 this.matterList = res.matterList
+                this.iconList = res.iconList
             }            
         }
     },

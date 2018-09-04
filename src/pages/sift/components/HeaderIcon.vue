@@ -1,10 +1,10 @@
 <template>
     <div class="icons">
         <div class="icon">
-            <div class="uu">
+            <router-link tag="div" to="/classify" class="uu">
                 <span class="iconfont icon-small icon1">&#xe603;</span>
                 <p class="text-small">分类</p>
-            </div>
+            </router-link>
         </div>
         <div class="icon">
             <div class="uu">

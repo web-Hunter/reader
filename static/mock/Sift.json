@@ -1,5 +1,29 @@
 {
     "ret": true,
+    "iconList":[{
+        "id":"0001",
+        "iconfonts":"&#xe603;",
+        "title":"分类"
+    },{
+        "id":"0002",
+        "iconfonts":"&#xe6fe;",
+        "title":"排行"
+    },{
+        "id":"0003",
+        "iconfonts":"&#xe657;",
+        "title":"免费"
+    },{
+        "id":"0004",
+        "iconfonts":"&#xe74d;",
+        "title":"包月"
+    },{
+        "id":"0005",
+        "iconfonts":"&#xe600;",
+        "title":"特价"
+    }],
+
+
+
     "slideList":[{
         "id":"0001",
         "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/3.jpg?raw=true"
