@@ -6,26 +6,10 @@
                     <img class="rackimg" src="">
                 </div>
             </div>
-            <div class="shadow"></div>
         </div>
-
-        <div class="bookracks">
-            <div class="bookrack">
-                <div class="rack">
-                    <img class="rackimg" src="">
-                </div>
-            </div>
-            <div class="shadow"></div>
-        </div>
-
-        <div class="bookracks">
-            <div class="bookrack">
-                <div class="rack">
-                    <img class="rackimg" src="">
-                </div>
-            </div>
-            <div class="shadow"></div>
-        </div>
+        <div class="shadow"></div>
+        <div class="shadow1"></div>
+        <div class="shadow2"></div>
     </div>
 </template>
 
@@ -38,11 +22,11 @@ export default {
 <style lang="stylus" scoped>
     .bookrackslist
         width 100%
+        position relative
         .bookracks
-            position relative
             width 100%
             height 0
-            padding-bottom 6.5rem
+            padding-bottom 5.7rem
             overflow hidden
             .bookrack
                 width 100%
@@ -59,10 +43,22 @@ export default {
                     background #fff
                     .rackimg
                         width 100%
-            .shadow
-                position absolute
-                top 3.9rem
-                width 100%
-                height 1.8rem
-                background linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.1))
+        .shadow
+            position absolute
+            top 4.1rem
+            width 100%
+            height 1.8rem
+            background linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.1))
+        .shadow1
+            position absolute
+            top 9.8rem
+            width 100%
+            height 1.8rem
+            background linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.1))
+        .shadow2
+            position absolute
+            top 15.5rem
+            width 100%
+            height 1.8rem
+            background linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.1))
 </style>
