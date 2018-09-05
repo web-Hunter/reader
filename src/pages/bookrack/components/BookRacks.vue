@@ -3,7 +3,7 @@
         <div class="bookracks">
             <div class="bookrack">
                 <div class="rack">
-                    <img class="rackimg" src="">
+                    <img class="rackimg" :src="this.$store.state.bookList[0].imgUrl">
                 </div>
             </div>
         </div>
