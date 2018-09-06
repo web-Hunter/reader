@@ -7,7 +7,7 @@
                     <span class="item-desc">书架</span>
                 </div>
             </router-link>
-            <router-link tag="div" to="/sift" class="items">
+            <router-link tag="div" to="/home" class="items">
                 <div class="item">
                     <span class="iconfont item-icon">&#xe60d;</span>
                     <span class="item-desc">书城</span>

@@ -2,18 +2,18 @@
     <div class="wrapper border-bottom">
         <swiper :options="swiperOption" >
             <!-- slides -->
-            <swiper-slide><router-link tag="span" to="/sift" class="ee">精选</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/boy" class="ee">男生</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/girl" class="ee">女生</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/comics" class="ee">漫画</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/publish" class="ee">出版</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/listen" class="ee">听书</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/fantasy" class="ee">玄幻</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/writing" class="ee">奇文</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/free" class="ee">免费</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/VIP" class="ee">VIP</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/city" class="ee">都市</router-link></swiper-slide>
-            <swiper-slide><router-link tag="span" to="/bookstore" class="ee">书店</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/sift" class="ee">精选</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/boy" class="ee">男生</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/girl" class="ee">女生</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/comics" class="ee">漫画</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/publish" class="ee">出版</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/listen" class="ee">听书</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/fantasy" class="ee">玄幻</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/writing" class="ee">奇文</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/free" class="ee">免费</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/VIP" class="ee">VIP</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/city" class="ee">都市</router-link></swiper-slide>
+            <swiper-slide><router-link tag="span" to="/home/bookstore" class="ee">书店</router-link></swiper-slide>
             <swiper-slide><router-link tag="span" to="/" class="ee"></router-link></swiper-slide>
         </swiper>
         <div class="qq">

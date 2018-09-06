@@ -2,9 +2,9 @@
     <div class="header border-bottom">
         <div class="header-left"><span class="left-icon iconfont">&#xe749;</span></div>
         <div class="header-content">
-            <router-link tag="span" to="/follow" class="content-titles">关注</router-link>
-            <router-link tag="span" to="/hot" class="content-titles content-title">热门</router-link>
-            <router-link tag="span" to="/square" class="content-titles">广场</router-link>
+            <router-link tag="span" to="/find/follow" class="content-titles">关注</router-link>
+            <router-link tag="span" to="/find/hot" class="content-titles content-title">热门</router-link>
+            <router-link tag="span" to="/find/square" class="content-titles">广场</router-link>
         </div>
         <div class="header-right"><span class="right-icon iconfont">&#xe608;</span></div>
     </div>

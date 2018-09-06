@@ -31,55 +31,59 @@ export default new Router({
   routes: [
     {
       path: '/',
+      redirect: '/home'
+    },
+    {
+      path: '/home',
       name: 'Home',
-      redirect:'/sift',
+      redirect:'/home/sift',
       component: Home,
       children:[
-        {path: 'sift',
+        {path: '/home/sift',
         component: Sift
         },
         {
-          path: 'boy',
+          path: '/home/boy',
           component: Boy
         },
         {
-          path: 'girl',
+          path: '/home/girl',
           component: Girl
         },
         {
-          path: 'comics',
+          path: '/home/comics',
           component: Comics
         },
         {
-          path: 'publish',
+          path: '/home/publish',
           component: Publish
         },
         {
-          path: 'listen',
+          path: '/home/listen',
           component: Listen
         },
         {
-          path: 'fantasy',
+          path: '/home/fantasy',
           component: Fantasy
         },
         {
-          path: 'writing',
+          path: '/home/writing',
           component: Writing
         },
         {
-          path: 'free',
+          path: '/home/free',
           component: Free
         },
         {
-          path: 'VIP',
+          path: '/home/VIP',
           component: VIP
         },
         {
-          path: 'city',
+          path: '/home/city',
           component: City
         },
         {
-          path: 'bookstore',
+          path: '/home/bookstore',
           component: Bookstore
         }
       ]
@@ -104,18 +108,19 @@ export default new Router({
     },
     {
       path: '/find',
+      redirect: '/find/hot',
       component: Find,
       children:[
         {
-          path: '/hot',
+          path: '/find/hot',
           component: Hot
         },
         {
-          path: '/follow',
+          path: '/find/follow',
           component: Follow
         },
         {
-          path: '/square',
+          path: '/find/square',
           component: Square
         }
       ]
