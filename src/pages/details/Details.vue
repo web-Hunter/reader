@@ -3,7 +3,7 @@
         <details-header :detailslist="detailsList" :di="di"></details-header>
         <details-content :detailslist="detailsList" :di="di"></details-content>
         <evaluate :commentlist="commentList" :di="di"></evaluate>
-        <details-nav></details-nav>
+        <details-nav :detailsnavlist="detailsnavList" :di="di"></details-nav>
         <br>
         <br>
         <br>
@@ -23,7 +23,8 @@ export default {
         return {
             di:0,
             detailsList: [],
-            commentList: []
+            commentList: [],
+            detailsnavList: []
 
         }
     },
@@ -43,6 +44,7 @@ export default {
             if(res.ret){
                 this.detailsList = res.detailsList
                 this.commentList = res.commentList
+                this.detailsnavList = res.detailsnavList
             }            
         }
     },

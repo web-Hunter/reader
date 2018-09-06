@@ -1,12 +1,16 @@
 <template>
     <div class="bookrackslist">
-        <div class="bookracks">
-            <div class="bookrack">
-                <div class="rack">
-                    <img class="rackimg" :src="this.$store.state.bookList[0].imgUrl">
+        <div class="rack" v-for="(item,index) in this.$store.state.bookList" :key="index">
+            <img class="rackimg" :src="item.imgUrl">
+        </div>
+        
+        <!-- <div class="bookracks">
+            <div class="bookrack" v-for="items in this.$store.state.bookList" :key="items.id">
+                <div class="rack" v-for="item in items.item" :key="item.id">
+                    <img class="rackimg" :src="item.imgUrl">
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="shadow"></div>
         <div class="shadow1"></div>
         <div class="shadow2"></div>
@@ -23,26 +27,35 @@ export default {
     .bookrackslist
         width 100%
         position relative
-        .bookracks
-            width 100%
-            height 0
-            padding-bottom 5.7rem
-            overflow hidden
-            .bookrack
+        .rack
+            width 24%
+            height 5.2rem
+            margin-top .5rem
+            margin-left .7rem
+            margin-right .8rem
+            float left
+            .rackimg
                 width 100%
-                height 0
-                padding-bottom 5.7rem
-                overflow hidden
-                .rack
-                    margin-top .5rem
-                    margin-left .7rem
-                    margin-right .83rem
-                    width 24%
-                    height 5.2rem
-                    float left
-                    background #fff
-                    .rackimg
-                        width 100%
+        // .bookracks
+        //     width 100%
+        //     height 0
+        //     padding-bottom 5.7rem
+        //     overflow hidden
+        //     .bookrack
+        //         width 100%
+        //         height 0
+        //         padding-bottom 5.7rem
+        //         overflow hidden
+        //         .rack
+        //             margin-top .5rem
+        //             margin-left .7rem
+        //             margin-right .83rem
+        //             width 24%
+        //             height 5.2rem
+        //             float left
+        //             background #fff
+        //             .rackimg
+        //                 width 100%
         .shadow
             position absolute
             top 4.1rem

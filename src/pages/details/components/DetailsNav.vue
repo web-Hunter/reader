@@ -1,23 +1,34 @@
 <template>
     <div class="detailsnav">
-        <div class="bookrack iconfont">
-            <span class="icon">&#xe637;</span>
-            <span class="desc">加入书架</span>
-        </div>
-        <div class="read iconfont">
-            <span class="icon">&#xe657;</span>
-            <span class="desc">免费试读</span>
-        </div>
-        <div class="buy iconfont">
-            <span class="icon">&#xe63c;</span>
-            <span class="desc">优惠购买</span>
+        <div v-for="item in detailsnavlist" :key="item.id" v-if="item.id == di">
+            <div class="bookrack iconfont" @click="headleBookClick(item)">
+                <span class="icon">&#xe637;</span>
+                <span class="desc">加入书架</span>
+            </div>
+            <div class="read iconfont">
+                <span class="icon">&#xe657;</span>
+                <span class="desc">免费试读</span>
+            </div>
+            <div class="buy iconfont">
+                <span class="icon">&#xe63c;</span>
+                <span class="desc">优惠购买</span>
+            </div>
         </div>
     </div> 
 </template>
 
 <script>
 export default {
-    name: 'DetailsNav'
+    name: 'DetailsNav',
+    props: {
+        di: String,
+        detailsnavlist: Array 
+    },
+    methods:{
+        headleBookClick (book) {
+            this.$store.dispatch('changeBook',book)            
+        }
+    }
 }
 </script>
 
