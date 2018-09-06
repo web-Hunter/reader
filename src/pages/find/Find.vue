@@ -1,16 +1,19 @@
 <template>
     <div>
-        jjjjj
+        <find-header></find-header>
+        <router-view></router-view>
         <base-nav></base-nav>
     </div>
 </template>
 
 <script>
+import FindHeader from './components/FindHeader'
 import BaseNav from '../baseNav/BaseNav'
 export default {
     name: 'Find',
     components: {
-        BaseNav
+        BaseNav,
+        FindHeader
     }
 }
 </script>

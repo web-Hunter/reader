@@ -21,6 +21,9 @@ import My from '@/pages/my/My'
 import ClassifyComponent from '@/pages/classify/components/ClassifyComponent'
 import Details from '@/pages/details/Details'
 import IconDetails from '@/pages/icondetails/IconDetails'
+import Hot from '@/pages/hot/Hot'
+import Follow from '@/pages/follow/Follow'
+import Square from '@/pages/square/Square'
 
 Vue.use(Router)
 
@@ -101,7 +104,21 @@ export default new Router({
     },
     {
       path: '/find',
-      component: Find
+      component: Find,
+      children:[
+        {
+          path: '/hot',
+          component: Hot
+        },
+        {
+          path: '/follow',
+          component: Follow
+        },
+        {
+          path: '/square',
+          component: Square
+        }
+      ]
     },
     {
       path: '/my',
