@@ -1,7 +1,7 @@
 <template>
     <div class="detail">
         <div class="header">
-            <router-link tag="span" to="/sift" class="header-left iconfont">&#xe601;</router-link>
+            <router-link tag="span" to="/home/sift" class="header-left iconfont">&#xe601;</router-link>
             <span class="header-right iconfont">&#xe602;</span>
             <span class="header-right iconfont">&#xe60c;</span>
         </div>

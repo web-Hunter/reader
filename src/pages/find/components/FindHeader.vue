@@ -23,6 +23,7 @@ export default {
         position fixed
         z-index 4
         display flex
+        background #fff
         .header-left
             float left
             margin-left .8rem
