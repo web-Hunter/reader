@@ -1,33 +1,18 @@
 <template>
     <div class="hot">
-        <div class="swiper">
-            <swiper :options="swiperOption">
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot1.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot2.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot4.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <div class="swiper-pagination"  slot="pagination"></div>
-            </swiper>
-        </div>
+        <hot-slide></hot-slide>
+        <hot-article></hot-article>
     </div>
 </template>
 
 <script>
+import HotSlide from './components/HotSlide'
+import HotArticle from './components/HotArticle'
 export default {
     name:'Hot',
-    data () {
-        return {
-            swiperOption: {
-                pagination: '.swiper-pagination',
-                loop: true,
-                autoplay: 1000
-            }
-        }
+    components: {
+        HotSlide,
+        HotArticle
     }
 }
 </script>
@@ -35,15 +20,5 @@ export default {
 <style lang="stylus" scoped>
     .hot
         padding-top 2rem
-    .swiper >>> .swiper-pagination-bullet-active
-        background : #fff
-    .swiper
-        overflow : hidden
-        width : 100%
-        height : 0
-        padding-bottom : 42%
-        background-color : #ccc
-        .swiper-img
-            width 100%
 </style>
 
