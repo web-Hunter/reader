@@ -9,7 +9,7 @@
                     <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot2.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <swiper-slide>
-                    <img src="" class="swiper-img">
+                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot4.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
