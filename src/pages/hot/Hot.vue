@@ -3,10 +3,10 @@
         <div class="swiper">
             <swiper :options="swiperOption">
                 <swiper-slide>
-                    <img src="" class="swiper-img">
+                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot1.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <swiper-slide>
-                    <img src="" class="swiper-img">
+                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hot2.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
@@ -16,11 +16,22 @@
 
 <script>
 export default {
-    name:'Hot'
+    name:'Hot',
+    data () {
+        return {
+            swiperOption: {
+                pagination: '.swiper-pagination',
+                loop: true,
+                autoplay: 1000
+            }
+        }
+    }
 }
 </script>
 
 <style lang="stylus" scoped>
+    .hot
+        padding-top 2rem
     .swiper >>> .swiper-pagination-bullet-active
         background : #fff
     .swiper
