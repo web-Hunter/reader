@@ -1,10 +1,10 @@
 <template>
     <div class="articles">
-        <div class="article">
+        <div class="article" v-for="item in articlelist" :key="item.id">
             <div class="article-header">
                 <div class="header-left">
-                    <img class="header-left-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW">
-                    <span class="header-left-author">言无笙</span>
+                    <img class="header-left-img" :src="item.authorUrl">
+                    <span class="header-left-author">{{item.author}}</span>
                 </div>
                 <div class="header-right">
                     <span class="header-right-icon iconfont">&#xe652;关注</span>
@@ -12,17 +12,17 @@
             </div>
             <div class="article-content">
                 <div class="content-contents">
-                    <span class="contents-title">天灯愿</span>
-                    <span class="contents-desc">他说“菩提树下许天灯，言归天处夙愿成。”她许了半生愿怎么还没实现？</span>
+                    <span class="contents-title">{{item.title}}</span>
+                    <span class="contents-desc">{{item.desc}}</span>
                 </div>
                 <div class="content-imgs">
-                    <img class="content-img" src="http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW">
+                    <img class="content-img" :src="item.imgUrl">
                 </div>
             </div>
             <div class="article-bottom">
-                <div class="bottom-kind border">诗歌</div>
-                <div class="bottom-kind">阅读</div>
-                <div class="bottom-kind">点赞</div>
+                <div class="bottom-kind border">{{item.topic}}</div>
+                <div class="bottom-kind">阅读：{{item.read}}</div>
+                <div class="bottom-kind">点赞：{{item.like}}</div>
             </div>
         </div>
     </div>
@@ -30,7 +30,10 @@
 
 <script>
 export default {
-    name: 'HotArticle'
+    name: 'HotArticle',
+    props: {
+        articlelist: Array
+    }
 }
 </script>
 

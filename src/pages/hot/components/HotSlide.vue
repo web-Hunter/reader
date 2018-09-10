@@ -1,27 +1,10 @@
 <template>
     <div class="swiper">
             <swiper :options="swiperOption">
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg1.jpg?raw=true" class="swiper-img">
+                <swiper-slide v-for="item in slidelist" :key="item.id">
+                    <img :src="item.imgUrl" class="swiper-img">
                 </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg2.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg3.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg4.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg5.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg6.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg7.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
+                
                 <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
         </div>
@@ -30,6 +13,9 @@
 <script>
 export default {
     name: 'HotSlide',
+    props: {
+        slidelist: Array
+    },
     data () {
         return {
             swiperOption: {

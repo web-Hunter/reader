@@ -1,0 +1,49 @@
+{
+    "ret": true,
+    "slideList": [{
+        "id":"0001",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg1.jpg?raw=true"
+    },{
+        "id":"0002",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg2.jpg?raw=true"
+    },{
+        "id":"0003",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg3.jpg?raw=true"
+    },{
+        "id":"0004",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg4.jpg?raw=true"
+    },{
+        "id":"0005",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg5.jpg?raw=true"
+    },{
+        "id":"0006",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg6.jpg?raw=true"
+    },{
+        "id":"0007",
+        "imgUrl":"https://github.com/web-Hunter/reader/blob/master/src/assets/images/hotimg7.jpg?raw=true"
+    }],
+
+    "articleList": [{
+        "id": "0001",
+        "author": "言无笙",
+        "authorUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW",
+        "title": "天灯愿",
+        "desc": "他说“菩提树下许天灯，言归天处夙愿成。”她许了半生愿怎么还没实现？",
+        "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW",
+        "topic": "诗歌",
+        "read": "4561",
+        "like": "1234"
+
+    },{
+        "id": "0002",
+        "author": "alex",
+        "authorUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/55a948a2/group6/M00/D2/69/CmQUN1jdFO-EXpujAAAAAL8tApw659054726.jpg?v=NDKyy5Zm",
+        "title": "致青春",
+        "desc": "他生若夏花，爱若寒冬，终是等不到春天来的时刻；恶魔少年曲蔚然的蚀骨青春，如果天堂无门而入，那我愿和你去地狱猖獗",
+        "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/55a948a2/group6/M00/D2/69/CmQUN1jdFO-EXpujAAAAAL8tApw659054726.jpg?v=NDKyy5Zm",
+        "topic": "言情",
+        "read": "3254",
+        "like": "1224"
+
+    }]
+}

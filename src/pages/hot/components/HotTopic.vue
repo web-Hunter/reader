@@ -2,10 +2,10 @@
     <div class="swiper">
         <swiper :options="swiperOption">
             <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic1.jpg?raw=true" class="swiper-img">
+                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic8.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic2.jpg?raw=true" class="swiper-img">
+                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic9.jpg?raw=true" class="swiper-img">
                 </swiper-slide>
                 <swiper-slide>
                     <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic3.jpg?raw=true" class="swiper-img">
@@ -32,7 +32,7 @@ export default {
     data () {
         return {
             swiperOption: {
-                slidesPerView: 2,
+                slidesPerView: 2.5,
                 pagination: '.swiper-pagination',
                 spaceBetween: 10,
                 freeMode: true
@@ -47,7 +47,7 @@ export default {
         overflow : hidden
         width : 100%
         height : 0
-        padding-bottom : 31%
+        padding-bottom : 24%
         background-color : #ccc
         .swiper-img
             width 100%
