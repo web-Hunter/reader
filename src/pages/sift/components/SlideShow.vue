@@ -20,6 +20,7 @@ export default {
             swiperOption: {
                 pagination: '.swiper-pagination',
                 loop: true,
+                autoplayDisableOnInteraction : false,
                 autoplay: 1000
             }
         }

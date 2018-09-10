@@ -4,7 +4,6 @@
                 <swiper-slide v-for="item in slidelist" :key="item.id">
                     <img :src="item.imgUrl" class="swiper-img">
                 </swiper-slide>
-                
                 <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
         </div>
@@ -21,6 +20,7 @@ export default {
             swiperOption: {
                 pagination: '.swiper-pagination',
                 loop: true,
+                autoplayDisableOnInteraction : false,
                 autoplay: 1000
             }
         }

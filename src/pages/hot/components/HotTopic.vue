@@ -1,27 +1,10 @@
 <template>
     <div class="swiper">
         <swiper :options="swiperOption">
-            <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic8.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic9.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic3.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic4.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic5.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic6.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic7.jpg?raw=true" class="swiper-img">
-                </swiper-slide>
+            <swiper-slide v-for="item in topiclist" :key="item.id">
+                <img :src="item.imgUrl" class="swiper-img">
+            </swiper-slide>
+                
         </swiper>
     </div>
 </template>
@@ -29,6 +12,9 @@
 <script>
 export default {
     name: 'HotTopic',
+    props: {
+        topiclist: Array
+    },
     data () {
         return {
             swiperOption: {

@@ -1,8 +1,10 @@
 <template>
     <div class="hot">
         <hot-slide :slidelist="slideList"></hot-slide>
+        <hot-article-img :articleimglist="articleImgList"></hot-article-img>
+        <hot-topic :topiclist="topicList"></hot-topic>
         <hot-article :articlelist="articleList"></hot-article>
-        <hot-topic></hot-topic>
+        
         <br>
         <br>
         <br>
@@ -17,6 +19,7 @@
 <script>
 import HotSlide from './components/HotSlide'
 import HotArticle from './components/HotArticle'
+import HotArticleImg from './components/HotArticleImg'
 import HotTopic from './components/HotTopic'
 import axios from 'axios'
 export default {
@@ -24,12 +27,15 @@ export default {
     data () {
         return {
             slideList: [],
-            articleList: []
+            articleImgList: [],
+            articleList: [],
+            topicList: []
         }
     },
     components: {
         HotSlide,
         HotArticle,
+        HotArticleImg,
         HotTopic
     },
     methods: {
@@ -42,8 +48,8 @@ export default {
             if (res.ret) {
                 this.slideList = res.slideList
                 this.articleList = res.articleList
-                console.log(res);
-                
+                this.articleImgList = res.articleImgList
+                this.topicList = res.topicList                
             }
         }
     },

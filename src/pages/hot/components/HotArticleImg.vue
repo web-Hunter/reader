@@ -1,6 +1,6 @@
 <template>
     <div class="articles">
-        <div class="article" v-for="item in articlelist" :key="item.id">
+        <div class="article" v-for="item in articleimglist" :key="item.id">
             <div class="article-header">
                 <div class="header-left">
                     <img class="header-left-img" :src="item.authorUrl">
@@ -13,10 +13,13 @@
             <div class="article-content">
                 <div class="content-contents">
                     <span class="contents-title">{{item.title}}</span>
-                    <span class="contents-desc">{{item.desc}}</span>
                 </div>
                 <div class="content-imgs">
-                    <img class="content-img" :src="item.imgUrl">
+                    <div class="imgList">
+                        <div class="content-img" v-for="imgs in item.descImg" :key="imgs.id">
+                            <img class="imgs" :src="imgs.imgUrl">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="article-bottom">
@@ -30,9 +33,9 @@
 
 <script>
 export default {
-    name: 'HotArticle',
+    name: 'HotArticleImg',
     props: {
-        articlelist: Array
+        articleimglist: Array
     }
 }
 </script>
@@ -66,37 +69,33 @@ export default {
                 color #666
         .article-content
             width 100%
-            display flex
             .content-contents
-                display inline-block
-                flex 1
-                height 4rem
                 .contents-title
                     display block
                     margin-top .3rem
                     margin-left .8rem
                     font-size .7rem
                     font-weight bold
-                .contents-desc
-                    display block
-                    margin-top .2rem
-                    margin-left .8rem
-                    font-size .5rem
-                    line-height .8rem
-                    letter-spacing .03rem
             .content-imgs
-                display inline-block
-                float right
-                width 30%
-                .content-img
-                    margin .5rem 0
-                    margin-left 1rem
-                    width 55%
-                    height 3rem
+                margin-top .5rem
+                margin-bottom .8rem
+                width 100%
+                height 0
+                padding-bottom 4rem
+                overflow hidden
+                .imgList
+                    width 100%
+                    padding-left .8rem
+                    .content-img
+                        width 29%
+                        float left
+                        margin-right .3rem
+                        .imgs
+                            width 100%
         .article-bottom
+            margin-bottom .2rem
             padding-left .8rem
             padding-bottom 1rem
-            margin-bottom .2rem
             color #999
             font-size .4rem
             .bottom-kind

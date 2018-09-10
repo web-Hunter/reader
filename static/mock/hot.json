@@ -29,7 +29,7 @@
         "authorUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW",
         "title": "天灯愿",
         "desc": "他说“菩提树下许天灯，言归天处夙愿成。”她许了半生愿怎么还没实现？",
-        "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/a05af2c0/group6/M00/D2/BC/CmQUNljdFsyEBo_2AAAAADlB63w317473732.jpg?v=9c7D2NOW",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/su1.jpg?raw=true",
         "topic": "诗歌",
         "read": "4561",
         "like": "1234"
@@ -39,11 +39,55 @@
         "author": "alex",
         "authorUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/55a948a2/group6/M00/D2/69/CmQUN1jdFO-EXpujAAAAAL8tApw659054726.jpg?v=NDKyy5Zm",
         "title": "致青春",
-        "desc": "他生若夏花，爱若寒冬，终是等不到春天来的时刻；恶魔少年曲蔚然的蚀骨青春，如果天堂无门而入，那我愿和你去地狱猖獗",
+        "desc": "恶魔少年曲蔚然的蚀骨青春，如果天堂无门而入，那我愿和你去地狱猖獗",
         "imgUrl": "http://book.img.ireader.com/idc_1/m_1,w_200,h_266/55a948a2/group6/M00/D2/69/CmQUN1jdFO-EXpujAAAAAL8tApw659054726.jpg?v=NDKyy5Zm",
         "topic": "言情",
         "read": "3254",
         "like": "1224"
 
+    }],
+
+
+    "articleImgList": [{
+        "id": "0001",
+        "author": "小汐",
+        "authorUrl": "http://img4.imgtn.bdimg.com/it/u=3501593141,1522553619&fm=26&gp=0.jpg",
+        "title": "老师您辛苦了",
+        "descImg": [{
+            "id": "0001",
+            "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/su1.jpg?raw=true"
+        },{
+            "id": "0002",
+            "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/su2.jpg?raw=true"
+        },{
+            "id": "0003",
+            "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/su3.jpg?raw=true"
+        }],
+        "topic": "情感",
+        "read": "4515",
+        "like": "2451"
+    }],
+
+    "topicList": [{
+        "id": "0001",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic8.jpg?raw=true"
+    },{
+        "id": "0002",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic9.jpg?raw=true"
+    },{
+        "id": "0003",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic3.jpg?raw=true"
+    },{
+        "id": "0004",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic4.jpg?raw=true"
+    },{
+        "id": "0005",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic5.jpg?raw=true"
+    },{
+        "id": "0006",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic6.jpg?raw=true"
+    },{
+        "id": "0007",
+        "imgUrl": "https://github.com/web-Hunter/reader/blob/master/src/assets/images/topic7.jpg?raw=true"
     }]
 }
