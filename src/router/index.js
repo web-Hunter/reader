@@ -24,6 +24,7 @@ import IconDetails from '@/pages/icondetails/IconDetails'
 import Hot from '@/pages/hot/Hot'
 import Follow from '@/pages/follow/Follow'
 import Square from '@/pages/square/Square'
+import FindIntroduce from '@/pages/find/components/FindIntroduce'
 
 Vue.use(Router)
 
@@ -136,6 +137,10 @@ export default new Router({
     {
       path: '/icondetails',
       component: IconDetails
+    },
+    {
+      path: '/findIntroduce',
+      component: FindIntroduce
     }
   ]
 })

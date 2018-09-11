@@ -1,6 +1,6 @@
 <template>
     <div class="header border-bottom">
-        <div class="header-left"><span class="left-icon iconfont">&#xe749;</span></div>
+        <router-link tag="div" to="/findIntroduce" class="header-left"><span class="left-icon iconfont">&#xe749;</span></router-link>
         <div class="header-content">
             <router-link tag="span" to="/find/follow" class="content-titles">关注</router-link>
             <router-link tag="span" to="/find/hot" class="content-titles content-title">热门</router-link>
