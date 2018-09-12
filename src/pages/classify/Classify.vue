@@ -101,5 +101,4 @@ export default {
                         margin-left 1rem
                         font-size .6rem
                         font-weight bold
-            
 </style>
